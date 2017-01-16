@@ -15,7 +15,7 @@
             
             
     } else if (F(&lt;#_user#&gt;)) {
-        NLog(@"%@", &lt;#_user#&gt;.error);
+        [SVProgressHUD showErrorWithStatus:&lt;#_user#&gt;.error.localizedDescription withStyle:SVProgressHUDStyleDark];
         }
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
